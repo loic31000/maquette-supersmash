@@ -1,119 +1,127 @@
-div {
-color: white;
-}
 body {
-height: 100vh;
-margin: 0;
-background: linear-gradient(to right, #df271a, #52290e);
+    height: 29.25rem;
+    background: linear-gradient(to right, #df271a, #52290e);
+    margin: 0;
 }
-h1 {font-family: "Slackey", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-h2 {font-family: "Slackey", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-h1 {font-size: 120px;
-margin: 20px;
-}
-h2 {font-size: 40px;
-margin: 20px;
-}
-.hero-section {
-display: flex;
-gap: 200px; 
-justify-content: center;
-margin-top: 50px;
-}
-.section-center {
-display: flex;
-justify-content: center; align-items: center; 
-flex-direction: column;
-text-align: center;
-gap: 20px;
-background: #d36217;
-}
-h3 { display: flex;
-justify-content: space-around;
-} 
-h3 {font-family: "Slackey", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-h4 {font-family: "Slackey", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-h3 {font-size: 30px;
-}
-h4 {font-size: 60px;
-}
-.about-section {
-background: #e2be8f;
-display: flex;
-justify-content: space-between;
-}
-h5 {font-size: 150px;
-}
-p {font-size: 60px;
-}
-h5 {font-family: "Slackey", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-h5 {
-display: flex;
-justify-content: center; align-content: center;
-}
-p { 
-margin: 90px;
-}
-p {font-family: "Slackey", sans-serif;
-font-weight: 400;
-font-style: normal;
-}
-#Img_2 {
-width : 30vw;
-height : 30vh;
-max-width : 197px;
-max-height : 180px;
-}
-.about-section p {
-color: #130e0ec7;
-}
-.about-section h5 {
-color: #130e0ec7;
-}
-#Img_0 {
-width : 30vw;
-height : 30vh;
-max-width : 197px;
-max-height : 180px;
-display: flex;
-justify-content: center; align-items: center
-}
-#Img_1 {
-height: 1000px;
-margin: 20px;
-}
-#Img_2 {
-border-radius: 50px;
-margin: 20px;
-}
-iframe {
-border-radius: 50px;
-margin: 20px;
-}
-#Img_0 {
-margin: 05px;
-}
-#Img_1.5 {
-width : 30vw;
-height : 30vh;
-max-width : 197px;
-max-height : 180px;
-display: flex;
-justify-content: center; align-items: center
 
+h1 {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4.5rem;
+    margin: 1.25rem;
+    display: flex; justify-content: first baseline
+}
+
+h2 {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.5rem;
+}
+
+.hero-section {
+    
+     
+    margin-top: 3.12rem;
+    color: white;
+    padding: 5.90rem;
+}
+.fusion {
+    display: flex; justify-content: space-around
+}
+
+.section-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background: #d36217;
+    color: white;
+    padding: 5.90rem;
+}
+
+h3 {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.35rem;
+}
+
+h4 {
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3.75rem;
+}
+
+.about-section {
+    background: #e2be8f;
+    display: flex;
+    justify-content: space-between;
+}
+
+h5 {
+    font-size: 4.8rem;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 5rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+p {
+    font-size: 2.7rem;
+    font-family: "Slackey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Img_2 {
+    width: 27rem;
+    height: 16.88rem;
+    max-width: 12.31rem;
+    max-height: 11.25rem;
+}
+
+.about-section p {
+    color: #130e0ec7;
+}
+
+.about-section h5 {
+    color: #130e0ec7;
+}
+
+.Img_0 {
+    width: 6.75rem;
+    height: 4.05rem;
+    position: left 1rem;
+    margin: 0.31rem;
+}
+
+.Img_1 {
+    height: 45rem;
+    margin: 1.25rems;
+    display: flex; justify-content: last baseline;
+    
+}
+
+.Img_2 {
+    border-radius: 3.12rem;
+    margin: 1.25rem;
+    width: 8.1rem;
+    height: 8.1rem;
+}
+
+iframe {
+    border-radius: 3.12rem;
+    margin: 1.25rem;
 }

@@ -24,7 +24,8 @@ h2 {
     margin-top: 3.12rem;
     color: white;
     padding: 5.90rem;
-    display: flex; justify-content: space-between
+    display: flex; justify-content: space-between;
+    flex-direction: row-reverse;
     
 }
 

@@ -121,7 +121,7 @@ iframe {
     max-width: 100%;
     height: auto;
 }
-
+/* iPads (portrait and landscape) */
 @media screen and (max-width: 768px) {
     h1 {
         font-size: 3.5rem;
@@ -182,7 +182,7 @@ iframe {
         margin: 0.8rem;
     }
 }
-
+/* iPhone Paysage */
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 2.5rem;
@@ -243,7 +243,7 @@ iframe {
         margin: 0.5rem;
     }
 }
-
+/* iPhone Paysage */
 @media screen and (max-width: 320px) {
     h1 {
         font-size: 2rem;
@@ -272,7 +272,7 @@ iframe {
         height: 4rem;
     }
 }
-
+/* Desktops */
 @media screen and (min-width: 1200px) {
     .hero-section {
         padding: 5rem;

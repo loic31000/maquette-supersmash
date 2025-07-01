@@ -10,9 +10,11 @@ h1 {
     font-style: normal;
     font-size: 7rem;
     margin: 0.30rem;
-    display: flex; justify-content: space-between; flex-direction: row;
-    text-shadow: 2px 2px 4px rgba(0,0,0,0.8);
-  }
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
 
 h2 {
     font-family: "Slackey", sans-serif;
@@ -26,18 +28,19 @@ h2 {
     margin-top: 3.12rem;
     color: white;
     padding: 5.90rem;
-    display: flex; justify-content: space-between;
-    flex-direction: row-reverse;
-    
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+
 }
 
 .burger {
-    display: flex; justify-content: space-between;
-    
+    disp
 }
 
 .oignon {
-
+    display: flex;
+    flex-direction: c
 }
 
 .section-center {
@@ -46,6 +49,7 @@ h2 {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    flex-wrap: wrap;
     background: #d36217;
     color: white;
     padding: 5.90rem;
@@ -69,29 +73,27 @@ h4 {
 
 .about-section {
     background: #e2be8f;
-    display: flex;
-    justify-content: space-between;
+    
+
+
 }
 
 h5 {
-    font-size: 4.8rem;
-    font-family: "Slackey", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-size: 8rem;
     font-family: "Slackey", sans-serif;
     font-weight: 400;
     font-style: normal;
     margin: 5rem;
-    display: flex;
-    justify-content: center;
-    align-content: center;
+    padding: 5rem;
 }
 
 p {
-    font-size: 2.7rem;
+    font-size: 2.4rem;
     font-family: "Slackey", sans-serif;
     font-weight: 400;
     font-style: normal;
+    padding: 1rem;
+    margin: 4rem;
 }
 
 .Img_2 {
@@ -112,14 +114,8 @@ p {
 .oignon {
     width: 6.75rem;
     height: 4.05rem;
-    display: flex; flex-direction: ;
-}
-
-.burger {
-    height: 45rem;
-    margin: 1.25rems;
-    display: flex; justify-content: last baseline;
-    
+    display: flex;
+    flex-direction: ;
 }
 
 .Img_2 {
@@ -132,5 +128,19 @@ p {
 iframe {
     border-radius: 3.12rem;
     margin: 1.25rem;
+    border: solid;
 }
 
+.about-text {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+}
+
+.about-section p {
+    margin: 0;
+    padding: 0;
+    font-size: 2em;
+}

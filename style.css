@@ -272,18 +272,3 @@ iframe {
         height: 4rem;
     }
 }
-/* Desktops */
-@media screen and (min-width: 1200px) {
-    .hero-section {
-        padding: 5rem;
-    }
-    
-    .section-center {
-        padding: 7rem;
-    }
-    
-    iframe {
-        width: 700px;
-        height: 500px;
-    }
-}
